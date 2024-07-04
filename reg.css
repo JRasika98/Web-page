@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+
+
+/* CSS to style form elements */
+form {
+  text-align: center; /* Center align form elements */
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("1.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.parent-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+
+.header-section {
+  background: black;
+  color: white;
+  padding: 13px 13px 13px 30px;
+}
+
+.header-text {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 200%;
+  
+}
+
+.vertical-section-holder {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-section-1 {
+  flex: 0.65;
+  background-size: cover;
+  background-image: linear-gradient,url(https://www.freepik.com/free-vector/new-employee-concept-illustration_20287885.htm#from_view=detail_author)
+}
+.vertical-section-2 {
+  flex: 0.35;
+}
+
+.login-signup-holder {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: 0 auto;
+}
+
+.forms {
+  background: rgb(94, 119, 119);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  margin: 2% auto 10% auto;
+    text-align: center;
+
+}
+
+.forms .heading-text {
+  padding: 10px;
+  color: midnightblue;
+}
+
+.forms input {
+  font-family: "Roboto", sans-serif;
+  outline: 1px;
+  background: white;
+  width: 100%;
+  border: 0;
+  margin: 15px 0 0 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.forms button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  margin: 10px 0 0 0;
+  background: #453FCF;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/*
+.button {
+display: inline-block;
+border: none;
+text-decoration: none;
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+background: #453FCF;
+width: 89%;
+padding: 15px;
+color: #ffffff;
+font-size: 14px;
+cursor: pointer;
+}
+*/
+.forms .message {
+  margin: 15px 0 0;
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.forms .message a {
+  color: #453FCF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.forms button:hover, .forms button:active {
+  background: #7F39FF;
+}
+
+.button:hover, .button:active {
+  background: #7F39FF;
+}
+
+.forms .login-form {
+  display: none;
+}
+
+.errors {
+  color: darkblue;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-size: 14px;
+  font-style: oblique;
+  text-align: left;
+}
+
+.indicator {
+  border-radius: 6px;
+  padding: 4px;
+  background-color: #453FCF;
+  height: 10px;
+  margin: 10px 0;
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+}
+
+.indicator span {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgb(241, 238, 238);
+  border-radius: 5px;
+}
+
+.indicator span:nth-child(2) {
+  margin: 0 3px;
+}
+
+.indicator span.active:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+
+.footer {
+  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
